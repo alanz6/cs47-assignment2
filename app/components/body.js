@@ -59,10 +59,6 @@ const styles = StyleSheet.create({
         height: Dimensions.get('window').width * 0.8 * 1.1,
         alignItems: 'center',
         marginBottom: Dimensions.get('window').height / 30,
-        shadowColor: Themes.light.shadows.shadowColor,
-        shadowOpacity: Themes.light.shadows.shadowOpacity,
-        shadowRadius: Themes.light.shadows.shadowRadius,
-        shadowOffset: Themes.light.shadows.shadowOffset,
     },
     profileImageStyle: {
         borderRadius: 10,
@@ -94,6 +90,10 @@ const styles = StyleSheet.create({
         flex: 1,
         width: Dimensions.get('window').width * 0.8,
         height: Dimensions.get('window').width * 0.8 * 1.1,
+        shadowColor: Themes.light.shadows.shadowColor,
+        shadowOpacity: Themes.light.shadows.shadowOpacity,
+        shadowRadius: Themes.light.shadows.shadowRadius,
+        shadowOffset: Themes.light.shadows.shadowOffset,
     },
     userName: {
         position: 'absolute',

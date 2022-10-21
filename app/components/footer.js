@@ -32,7 +32,7 @@ export default function Footer() {
 const styles = StyleSheet.create({
     container: {
       flex: 1,
-      backgroundColor: 'black',
+      backgroundColor: Themes.light.navigation,
       flexDirection: 'row',
       justifyContent: 'space-between',
       paddingHorizontal: Dimensions.get('window').width/10,
