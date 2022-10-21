@@ -1,5 +1,5 @@
 import { StyleSheet, Text, View, ImageBackground, Dimensions } from 'react-native';
-import { Icons, Themes } from '/Users/Apple/Downloads/cs47-a2-starter-main/assets/Themes';
+import { Icons, Themes } from '../../assets/Themes';
 
 export default function Footer() {
     return (

@@ -1,5 +1,5 @@
 import { StyleSheet, Text, Image, View, Platform, Dimensions} from 'react-native';
-import { Themes, Icons } from '/Users/Apple/Downloads/cs47-a2-starter-main/assets/Themes';
+import { Themes, Icons } from '../../assets/Themes';
 
 export default function Header() {
     return (

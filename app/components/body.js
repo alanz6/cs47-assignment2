@@ -1,6 +1,6 @@
-import Profiles from "/Users/Apple/Downloads/cs47-a2-starter-main/assets/Profiles";
+import Profiles from "../../assets/Profiles";
 import { StyleSheet, Text, Image, ImageBackground, View, Dimensions } from 'react-native';
-import { Icons, Themes } from '/Users/Apple/Downloads/cs47-a2-starter-main/assets/Themes';
+import { Icons, Themes } from '../../assets/Themes';
 
 export function ProfileImage(){
     return (
